@@ -24,7 +24,7 @@ def get_path(path: str) -> Path:
 class Parser:
     def __init__(self, path: Path, arg: tuple[str]) -> None:
         bs = BeautifulSoup()
-        return bs
+        bs
 
 
 def arg_worker() -> dict:
@@ -38,8 +38,7 @@ def arg_worker() -> dict:
 
 
 def main():
-    path_ = r'https://shop.doverstreetmarket.com/'
-    
+    pass
 
 
 if __name__ == '__main__':
